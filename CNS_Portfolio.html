@@ -139,7 +139,7 @@ ct = AESGCM(vault_key).encrypt(nonce, plaintext, aad)
 <span class="c"># Any modified byte fails the tag check - no plaintext is returned</span>
 <span class="k">except</span> InvalidTag: <span class="k">raise</span> VaultIntegrityError</pre>
  <h2 class="rv" style="margin-top:50px">Tech stack</h2>
- <div class="chips rv"><span>Python 3.12</span><span>FastAPI</span><span>SQLAlchemy</span><span>SQLite</span><span>Alembic</span><span>Pydantic</span><span>pytest</span><span>AES-256-GCM</span><span>PBKDF2</span><span>TLS 1.3</span><span>HMAC-SHA256</span><span>HTML / CSS / JS</span></div>
+ <div class="chips rv"><span>Python 3.12</span><span>FastAPI</span><span>SQLite</span><span>pytest</span><span>AES-256-GCM</span><span>PBKDF2</span><span>TLS 1.3</span><span>HMAC-SHA256</span><span>HTML / CSS / JS</span></div>
 </div></section>
 
 <section id="tests">
